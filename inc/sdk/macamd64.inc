@@ -1,6 +1,9 @@
 ;++
 ;
-; Copyright (c) Microsoft Corporation.  All rights reserved.
+; Copyright (c) Microsoft Corporation. All rights reserved.
+;
+; You may only use this code if you agree to the terms of the Windows Research Kernel Source Code License agreement (see License.txt).
+; If you do not agree to the terms, do not use the code.
 ;
 ;
 ; Module:
@@ -10,10 +13,6 @@
 ; Astract:
 ;
 ;   Contains AMD64 public architecture constants and assembly macros.
-;
-; Author:
-;
-;   David N. Cutler (davec) 27-May-2000
 ;
 ;--
 

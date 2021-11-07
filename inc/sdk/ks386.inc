@@ -1,3 +1,9 @@
+;
+; Copyright (c) Microsoft Corporation. All rights reserved.
+;
+; You may only use this code if you agree to the terms of the Windows Research Kernel Source Code License agreement (see License.txt).
+; If you do not agree to the terms, do not use the code.
+;
 
 ;
 ;  Pointer size in bytes
@@ -47,7 +53,7 @@ AsKernelApcPending equ 00015H
 AsUserApcPending equ 00016H
 
 ;
-;  Bug Check Code Definitions
+;  Bugcheck Code Definitions
 ;
 
 APC_INDEX_MISMATCH equ 00001H
@@ -569,7 +575,7 @@ ThQuantum equ 0015DH
 ThQuantumReset equ 0015FH
 ThKernelTime equ 00160H
 ThTlsArray equ 00180H
-ThLegoData equ 00184H
+ThBBTData equ 00184H
 ThPowerState equ 0018BH
 ThUserTime equ 0018CH
 ThSuspendSemaphore equ 00190H
@@ -1406,4 +1412,3 @@ ServiceCpupTdRemoveIoCompletion equ 0001CH
 ServiceCpupTdWaitForMultipleObjects equ 0001DH
 ServiceCpupTdWaitForMultipleObjects32 equ 0001EH
 Wow64ServiceTypesCount equ 0001FH
-
